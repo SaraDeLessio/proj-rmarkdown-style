@@ -10,8 +10,9 @@ h1 {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: #77bb4a;
-  padding: 10px;
-  width: auto;
+  padding: 20px;
+  max-width: 100%;
+
   
   
 }
@@ -19,11 +20,13 @@ h1 {
 h2 {
 font-family: 'Roboto', sans-serif;
   color: #77bb4a;
+
 }
 
 h3{
 font-family: 'Roboto', sans-serif;
   color: #000;
+  
 
 }
 
@@ -38,8 +41,13 @@ a {color: #77bb4a;
   text-decoration: underline;
 }
 
-code {
+a:hover {
+  color: #5c8c33;
+  
+}
 
+pre {
+border: 1px solid #dcdcdc;
 }
 
 
